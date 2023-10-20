@@ -28,4 +28,4 @@ def truecaller_info():
         return render_template('result.html', **context)  # Use render_template correctly
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
